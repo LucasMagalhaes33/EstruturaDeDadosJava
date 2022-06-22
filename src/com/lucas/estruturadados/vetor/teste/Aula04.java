@@ -8,8 +8,8 @@ public class Aula04 {
 
         Vetor vetor = new Vetor(5);
 
-        vetor.adiciona("elemento 1");
-        vetor.adiciona("elemento 2");
+/*        vetor.adiciona("elemento 1");
+        vetor.adiciona("elemento 2");*/
 
     }
 
