@@ -19,12 +19,16 @@ public class Vetor {
         }
     }*/
 
-    public void adiciona(String elemento){
+    public void adiciona(String elemento) throws Exception{
         if (this.tamanho < this.elementos.length) {
             this.elementos[this.tamanho] = elemento;
             this.tamanho++;
         } else {
-            throw new Exception("Vetor já está cheio, não é possível adicionar mais elementos")
+            throw new Exception("Vetor já está cheio, não é possível adicionar mais elementos");
         }
+    }
+
+    public int tamanho(){
+        return this.tamanho;
     }
 }
